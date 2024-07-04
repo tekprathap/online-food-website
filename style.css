@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+;
+scroll-behavior: smooth;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    justify-content: space-between;
+}
+.cart-close{
+  color: red;
+}
+.ul-list{
+    list-style-type: none;
+}
+.list{
+    display: inline-block;
+    
+    padding: 0 10px;
+    margin: 10px 10px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+   
+}
+.list a:hover{
+    color: white;
+}
+.btn-primary{
+    cursor: pointer;
+}
+.menulst{
+    height: 2px;
+    width: 20px;
+    margin-top: 2px;
+    background-color: white
+}
+.menu{
+    position: relative;
+    right: 10px;
+    top: -8px;
+}
+/* logo */
+.logo{
+   
+    border-radius: 20px;
+
+}
+/* home */
+.homeheading h1 span{
+    color: yellow;
+    font-size: 80px;
+}
+.homeheading h1{
+   
+    color: white;
+}
+#Home{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/460/412/non_2x/delicious-handmade-burger-on-dark-background-banner-photo.jpg');
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.btn-Home{
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: white;
+}
+.btn-Home:hover{
+    background-color: orange;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: none;
+    padding: 10px 20px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: white;
+}
+.img-about{
+    border-radius: 400px;
+    background-color: yellow;
+    padding: 10px;
+}
+/* about */
+#about{
+    background-image: url('https://static1.bigstockphoto.com/5/7/2/large1500/275758120.jpg');
+}
+
+.abuttitle h1{
+    color: white;
+    font-size: 70px;
+}
+/* menu */
+.menuheading {
+    text-align: center;
+    font-size: 70px;
+}
+.menuheading span {
+    text-align: center;
+    font-size: 80px;
+    color: orange;
+    padding: 10px;
+    text-decoration: underline
+}
+.logo img{
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+/* card show */
+.cart{
+    position: fixed;
+    border: 2px solid white;
+    top: 0;
+    right: -190%;
+    width: 400px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+    z-index: 100;
+  }
+  
+  .cart-active{
+    right:0;
+    transition: 0.5s;
+  }
+  
+  .cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom:20px ;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+  }
+  
+  .cart-img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border:2px solid  black;
+    padding: 5px;
+  }
+  .detail-box{
+    display: grid;
+    row-gap: 0.5rem;  
+  }
+  
+  .price-box{
+    display: flex;
+      justify-content: space-between; 
+  }
+  
+  .cart-food-title{
+     font-size: 1rem;
+     text-transform: uppercase;
+     color:#ff6348;
+     font-weight: 500;
+  }
+  
+  .cart-price{
+    font-weight: 500;
+  }
+  
+  .cart-quantity{
+    border:1px solid rgba(0,0,0,0.1);
+    outline:none ;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .cart-remove{
+    font-size: 24px;
+    color:red;
+    cursor: pointer;
+  }
+  
+  .total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+  }
+  
+  .total-title{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .total-price{
+    margin-left: 0.5rem;
+  }
+  
+  .btn-buy{
+    padding: 12px 20px;
+    background-color:#2f3542;
+    color:#fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  #cart-close{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .cardbag{
+    position: relative;
+    right: 40px;
+  }
+  .card1{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .price{
+    text-align: center;
+  }
+  .card-img{
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  #gallery img:hover{
+   filter: blur(2px);
+  }
+  #gallery img{
+   margin: 5px;
+  }
+  #gallery h1{
+  font-size: 100px;
+  }
+  #gallery h1 span{
+  font-size: 110px;
+  color: orange;
+  }
+
+  #riwe{
+    /* background-color: blueviolet; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs8KbLT3pEcQhpM2ANjxvjj1f2XpEXFc9ypg&s');
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
+  #gallery{
+    background-image: url('https://assets.architecturaldigest.in/photos/6373eddaa2dd6ea6560eb6e5/16:9/w_2560%2Cc_limit/DSC03698.jpg');
+    padding: 10px;
+  }
+  .riwebox{
+    width: 370px;
+    margin: 5px;
+    height: 500px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.41);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .circle{
+    position: relative;
+    left: 85px;
+    
+    border: 4px solid white;
+    border-radius: 100px;
+    
+  }
+  .orderhead{
+    font-size: 100px;
+    text-align: center;
+    }
+  .orderhead span{
+    font-size: 110px;
+    color: orange;
+    }
+  .inputgroup input{
+    border: none;
+    border: 2px solid gray;
+  }
+  .inputgroup input:hover{
+    border: none;
+    border: 2px solid orange;
+  }
+  #submit{
+    border-radius: 20px;
+    border: none;
+
+    border: 2px solid orange;
+  }
+  .menu{
+    display: none;
+  }
+  footer{
+    background-color: pink;
+    color: orange;
+    /* padding: 10px; */
+    
+  }
+  .inputgroup #errr{
+    color: red;
+  }
+
+.cart-icon{
+  cursor: pointer;
+}
+form h1{
+    text-align: center;
+    color:#792099;
+}
+
+.inputgroup .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+.inputgroup.success{
+    color:rgb(18, 242, 74);
+    font-size:16px;
+    margin-top: 5px;
+}
+label{
+  color: orange;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.inputgroup.success input{
+  border: 3px solid rgb(92, 236, 92)
+}
+.inputgroup.success textarea{
+  border: 3px solid rgb(92, 236, 92)
+}
+
+.inputgroup.error input{
+    border: 3px solid red;
+}
+.inputgroup.error textarea{
+  border: 3px solid red;
+}
+#cart-icon{
+  cursor: pointer;
+}
+
+  
+@media (max-width:800px) {
+    .header{
+        flex-direction: column;
+    }
+    .ul-list{
+        display: none;
+        align-items: center;
+    }
+    .logo{
+        align-self: baseline;
+    }
+    .list{
+        display: block;
+    }
+    .menu{
+     position: absolute;
+     right: 35px;
+     display: block;
+     top: 40px;
+  
+     cursor: pointer;
+
+    }
+    .active{
+        display: block;
+    }
+    .homeheading h1{
+        text-align: center;
+        color: white;
+    }
+    .homeheading p{
+        text-align: center;
+        
+    }
+    #about img{
+        width: 250px;
+    }
+    .cardbag{
+        position: absolute;
+        right: 5px;
+        top: 35px;
+      }
+      .riwebox{
+        width: 350px;
+        position: relative;
+        left: -25px;
+        height: 500px;
+       
+      }
+}
+@media (max-width:450px) {
+    .homeheading h1 span{
+        color: yellow;
+        font-size: 40px;
+    }
+    #about img{
+        width: 250px;
+        position: relative;
+        left: 30px;
+    }
+    .abuttitle h1{
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+   .card{
+        position: relative;
+        left: 30px;
+        width: 350px;
+    }
+    #gallery h1{
+        font-size: 50px;
+        }
+        #gallery h1 span{
+        font-size: 60px;
+        color: orange;
+        }
+        .riwebox{
+            width: 350px;
+            height: 500px;
+            margin: 10px;
+            position: relative;
+           
+         
+          }
+        .cart{
+            
+            width: 320px;
+            height: 100h;
+        }
+}
+
+
+@media (max-width:425px) {
+    .riwebox{
+        width: 350px;
+        position: relative;
+        right: -30px;
+        /* display: none; */
+    }
+    .circle{
+        position: relative;
+        left: 30px;
+    }
+    .riwebox{
+        width: 280px;
+        padding: 20px;
+        height: 500px;
+       position: relative;
+       left: -15px;
+        margin: 10px;
+    
+      }
+      .RDERIMG{
+        width: 290px;
+        position: relative;
+        right: 15px;
+      }
+      .orderhead{
+        font-size: 50px;
+      }
+      .orderhead span{
+        font-size: 60px;
+      }
+}

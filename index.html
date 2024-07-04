@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online foof website</title>
+    <link rel="shortcut icon" type="x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRESsGm92deQDTJR9fiWcHZ8S94NCmFLSkkQg&s">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar creation -->
+     <header class="header">
+        <h1 class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRESsGm92deQDTJR9fiWcHZ8S94NCmFLSkkQg&s" alt="" width="50"></h1>
+        <nav>
+            <ul class="ul-list">
+                <li class="list"><a href="">Home</a></li>
+                <li class="list"><a href="">Abut</a></li>
+                <li class="list"><a href="">Menu</a></li>
+                <li class="list"><a href="">Gallery</a></li>
+                <li class="list"><a href="">Riwe</a></li>
+                <li class="list"><a href="">order</a></li>
+            </ul>
+        </nav>
+        
+        <div class="menu">
+            <div class="menulst"></div>
+            <div class="menulst"></div>
+            <div class="menulst"></div>
+        </div>
+        <div class="cardbag">
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+        </div>
+     </header>
+    
+     <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+<!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy" id="btnconform">Place Order</button>
+
+      
+      <i class="fa-solid fa-x" id="cart-close"></i>
+
+      </div>
+    </div>
+     <!-- Home section -->
+      <section id="Home">
+        <div class="container">
+            <div class="homeheading">
+            <div class="row">
+                <div class="col-lg- col-md-6 col-12 ">
+                    <h1>  Searching for Your <br>
+                        Next Bite of <span>Delight? </span><br>
+                        It's Right Here!</h1>
+                        <p class="text-light">Welcome to our culinary haven, where every bite is a journey of delight. From sizzling street food sensations to exquisite fine dining creations, our passionate chefs infuse each dish with love. Explore a world of taste, where authenticity meets innovation, and indulge in gastronomic adventures. Join us and let your taste buds revel in the extraordinary – your next delight awaits, right here in our food paradise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn-Home mx-5 my-2">Order now</button>
+      </section>
+      <section id="about">
+        <div class="container-fluit">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 my-5">
+                    <img src="https://ashoka-tandoor.com/wp-content/uploads/2021/10/Matar-Paneer-2-500x500-1.jpg" alt="" class="img-about mx-2">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                   <div class="abuttitle">
+                    <h1>About Us <br>
+                        Why Choose Us?</h1>
+                        <p class="my-5 text-light text-center">Choose us for an unparalleled culinary experience. Our dedicated chefs infuse passion into every dish, creating a symphony of flavors that delight the palate. We offer a diverse menu, blending authenticity with innovation, ensuring there's something for every taste. Come savor extraordinary meals, and let us elevate your dining journey.</p>
+                   </div>
+                   <button class="btn-Home mx-5">Order now</button>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+      <!-- menusection -->
+       <section id="menu">
+        <h1 class="menuheading my-5">Our
+            <span>Menu</span></h1>
+        <div class="container">
+            <div class="row">
+             <!-- menu -->
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1 thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bf48MQOvMTuCMr0eu23QNHdX9TDc96azuQ&s" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Burger</h2>
+                    <h4 class="price">Rs.400.00</h4>
+                    <p class="text-center">A succulent burger: Juicy patty, melting cheese, crisp veggies, and zesty sauce, a symphony of .</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTmxqkb742j9MykfCJw9NyJgE_JhJbID5DKw&s" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Frie-Chicken</h2>
+                    <h4 class="price">Rs. 800.00</h4>
+                    <p class="text-center">Crispy, golden-fried chicken, its exterior shatteringly delicious while the inside remains tender ,</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdnvKS5lLFWb0XoJvtYCsOCe3aaeybw-9wA&s" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Chicken 65</h2>
+                    <h4 class="price">Rs.650</h4>
+                    <p class="text-center">Spicy, tender chicken bites, deep-fried to golden perfection, coated in a fiery blend of</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://thumbs.dreamstime.com/b/photo-captures-essence-indulging-piping-hot-pizza-rustic-wooden-table-image-showcases-deliciously-baked-312409382.jpg" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Pizza</h2>
+                    <h4 class="price">Rs.500</h4>
+                    <p class="text-center">Oven-fresh, cheesy, and aromatic, a delightful medley of toppings atop a golden crust,</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             </div>
+            <div class="row">
+             <!-- menu -->
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://www.halfbakedharvest.com/wp-content/uploads/2022/03/20-Minute-Red-Curry-Basil-Garlic-Oil-Noodles-1.jpg" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Noodles</h2>
+                    <h4 class="price">Rs.290.00</h4>
+                    <p class="text-center">Versatile and comforting, these strands of wheat or rice are boiled to perfection and often l .</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/05/red-sauce-pasta-recipe.jpg" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">pasta</h2>
+                    <h4 class="price">Rs.250 </h4>
+                    <p class="text-center">Versatile Italian staple, crafted from durum wheat semolina, available in various shapes, </p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://static.toiimg.com/thumb/83740315.cms?width=800&height=800&imgsize=361903" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Sandwich</h2>
+                    <h4 class="price">Rs.350</h4>
+                    <p class="text-center">A delightful culinary creation, consisting of layersingredients between slices ofbread</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://thecozycook.com/wp-content/uploads/2020/02/French-Fry-Seasoning-500x375.jpg" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center"> Flavorful Fries</h2>
+                    <h4 class="price">Rs.350</h4>
+                    <p class="text-center">Golden, crispy potato strips, seasoned to perfection, a classic side dish that's irresistibly</p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button>  
+                </div>
+             </div>
+             </div>
+            <div class="row">
+             <!-- menu -->
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGHB5VJ9FXllbDdlx8fjSO4U3W_UNfOXN_Xw&s" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">(Lemon Rice)</h2>
+                    <h4 class="price"> Rs.500.00</h4>
+                    <p class="text-center">A vibrant South Indian dish, bursting with tangy and zesty flavors, featuring rice, spices, and a </p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1h_ocDCI8U9gSAGn4DNRXsJ6GvWmb7FVJw&s" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Paneer</h2>
+                    <h4 class="price">Rs.450</h4>
+                    <p class="text-center">A versatile Indian cheese, mild and creamy in taste, made from coagulated milk, commonly used in a </p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://img-global.cpcdn.com/recipes/991bc444a26af47e/400x400cq70/photo.jpg" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Chicken Biryani</h2>
+                    <h4 class="price">Rs.550</h4>
+                    <p class="text-center">A fragrant Indian dish, marrying succulent chicken, aromatic spices, and long-grain rice, creating a </p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-12 my-2">
+                <div class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj0CS-mHWXupm1HqFcgfdNVrij_gybl-kIiA&s" alt="" width="300" height="250" class="card-img">
+                    <h2 class="card-title text-center">Egg Curry</h2>
+                    <h4 class="price">Rs.450</h4>
+                    <p class="text-center">A savory Indian dish featuring boiled eggs immersed in a rich, spiced tomato-based gravy, bursting </p> 
+                    <button class="btn-primary bg-dark text-light text-center form-control px-5">Order</button> 
+                </div>
+             </div>
+             </div>
+            
+        </div>
+       </section>
+       <!-- Gallery section -->
+    <section id="gallery">
+        <h1 class="text-center my-5">Our
+            <span>Gallery</span></h1>
+        <div class="container my-5">
+            <div class="row">
+                <div class="container text-center">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6 col-12">
+                        <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/caramel-ice-creame.jpg" class="img-thumbnail" alt="...">
+
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-12">
+                        <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/cup_cake.avif" class="img-thumbnail" alt="...">
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-12">
+                        <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/brownie.webp" class="img-thumbnail" alt="...">
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="row my-2">
+                <div class="container text-center">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6 col-12">
+                        <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/cake.webp" class="img-thumbnail" alt="...">
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-12">
+                        <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/milkshake.webp" class="img-thumbnail" alt="...">
+                      </div>
+                      <div class="col-lg-4 col-md-6 col-12">
+                        <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/fruit-juice.jpg" class="img-thumbnail" alt="...">
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Riwe sectin -->
+    <section id="riwe">
+        <div class="container">
+            <div class="row my-2">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="riwebox">
+                   <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/customers/pic-2.png" alt="" class="circle my-5">
+                   <h2 class="text-center">Jane Mitchell</h2>
+                   <p class="text-light text-center mx-2">"Wow! Your food is an absolute delight. I recently ordered your "Delicious Burger", and it was a burst of flavors in every bite. Fast delivery and friendly service too!"</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="riwebox">
+                   <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/customers/pic-3.png" alt="" class="circle my-5">
+                   <h2 class="text-center">David Thompson</h2>
+                   <p class="text-light text-center mx-2">"I'm a regular customer here, and I can't get enough of your "SavoryDelightsHub". The "Nutrient-rich Noodles" is my favorite – always cooked to perfection."</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="riwebox">
+                   <img src="https://quantumcoding123.github.io/Day-42-Amazing-Food-Ordering-Website/images/customers/pic-4.png" alt="" class="circle my-5">
+                   <h2 class="text-center text-center mx-2">Mike Turner</h2>
+                   <p class="text-light text-center mx-2">"Wow! Your food is an absolute delight. I recently ordered your "Delicious Burger", and it was a burst of flavors in every bite. Fast delivery and friendly service too!"</p>
+                    </div>
+                </div>
+              
+                
+            </div>
+        </div>
+        <h1 class="orderhead">Order
+        <span>Now</span></h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 my-5">
+    <img src="https://www.ttec.com/sites/default/files/styles/blog_article/public/blog/data-offers-glimpses-blog-post.jpg?itok=OYeXGV4Y" alt="" width="500" class="RDERIMG">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <form action="" id="form" method="post">
+                            <h1>Register</h1>
+                            <div class="row">
+                                <div class=" col-lg-6 inputgroup">
+                                    <label for="username">Username</label>
+                                    <input type="text" id="username" name="username" class="form-control">
+                                    <div class="error"></div>
+                                </div>
+                                <div class=" col-lg-6 inputgroup">
+                                    <label for="email">Email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-6 inputgroup">
+                                    <label for="username">password</label>
+                                    <input type="password" id="password" name="username" class="form-control">
+                                    <div class="error"></div>
+                                </div>
+                                <div class=" col-lg-6 inputgroup">
+                                    <label for="email">cpassword</label>
+                                    <input type="password" id="cpassword" name="email" class="form-control">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-6 inputgroup">
+                                    <label for="username">phonenumber</label>
+                                    <input type="text" id="phonenumber" name="username" class="form-control">
+                                    <div class="error"></div>
+                                </div>
+                                <div class=" col-lg-6 inputgroup">
+                                    <label for="username">Adress</label>
+                                   
+                                    <textarea name="username" id="count" class="form-control"></textarea>
+                                    <div class="error"></div>
+                                </div>
+                                
+                            </div>
+                            
+                           
+                            <button type="submit" id="submit" class="px-5 py-2">Register</button>
+                        </form>
+                      
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="py-5">
+        <div class="container ">
+            <div class="row my-5">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h1 class="text-center">Food Services</h1>
+                    <p class="text-center">
+                        Place Orders <br>
+
+Fast Delivery & Takeout <br>
+
+Secure Payment Options <br>
+
+Order Tracking <br>
+
+Customer Reviews <br>
+
+Exclusive Promotions <br>
+
+24/7 Customer Support <br>
+
+Diverse Cuisine Selection <br>
+
+Special Dietary Options <br>
+
+Pre-Schedule Your Orders
+                    </p>
+                </div>
+<div class="col-lg-3 col-md-6 col-12">
+    <h1 class="text-center">Quick Links</h1>
+    <p class="text-center">
+        Home <br>
+
+About <br>
+
+Menu <br>
+
+Gallery <br>
+
+Order <br>
+
+Links to Privacy Policy <br>
+
+Terms of Service <br>
+
+FAQs <br>
+
+Careers
+    </p>
+</div>
+<div class="col-lg-3 col-md-6 col-12">
+    <h1 class="text-center">Location</h1>
+    <p class="text-center">
+        India <br>
+
+Italy <br>
+
+USA <br>
+
+Sri Lanka <br>
+
+Japan <br>
+    </p>
+
+</div>
+<div class="col-lg-3 col-md-6 col-12">
+    <h1 class="text-center">Contact Us</h1>
+    <p class="text-center">+91 45673 78965  <br>
+
+        quantumcoding123@gmail.com <br>
+        
+        pratiksharelekar0705@gmail.com
+        
+        Stay Connected
+        </p>
+</div>
+
+            </div>
+        </div>
+        <p class="text-center">Designed by
+            Quantum Coding
+           | All rights reserved</p>
+    </footer>
+</body>
+<script src="scrpth.js"></script>
+</html>
